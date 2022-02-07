@@ -1,0 +1,118 @@
+<html>
+<head>
+	<title> My Homepage</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> 
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<style>
+		.jumbotron {
+			padding: 10px 10px 25px 10px;
+			margin:0px;
+			color:red;
+			background-color:white;
+		}
+		.navbar-inverse{
+			background-color:white;
+		}
+		.navbar-inverse .navbar-nav>li>a {
+			color:red;
+		}
+		.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
+			background-color:red;
+			color:white;
+		}
+		.navbar-inverse .navbar-nav>.active>a{
+			background-color:white;
+			color:red;
+		}
+		.navbar-inverse{
+			border-color:white;
+		}
+		.navbar-inverse .navbar-nav>.active>a{
+			color:black;
+		}
+		.navbar-nav>li>a{
+			padding-bottom:6px;
+			padding-left:137px;
+			padding-right:137px;
+			padding-top:6px;
+			font-size:20px;	
+		}
+		.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
+			background-color:red;
+			color:white;
+		}
+		.navbar-inverse .navbar-nav>.active>a{
+			color:red;
+		}
+		.footer {
+		width: 100%;
+		background-color: red;
+		color: white;
+		text-align: center;
+		padding-bottom:5px;
+		padding-top:5px;
+		}
+	</style>
+</head>
+<body>
+	<div class="jumbotron text-center">
+	  <img src="BeanLogo.svg" style="float:left; width:175px">
+	  <h1><strong>Hot Beans Web</strong></h1>
+	  <p><strong>A webdesign cosmpany that creates personal websites for your company</strong></p>
+	</div>
+	<nav class="navbar navbar-inverse">
+	  <div class="container-fluid">
+		<ul class="nav navbar-nav">
+		  <li><a href="Home.html"><strong>Home</strong></a></li>
+		  <li><a href="Team.html"><strong>Team</strong></a></li>
+		  <li><a href="Career.html"><strong>Careers</strong></a></li>
+		  		  <li class="dropdown">
+			<a class="dropdown-toggle" data-toggle="dropdown" href="Course.html"><strong>Courses</strong>
+			<span class="caret"></span></a>
+			<ul class="dropdown-menu">
+			  <li><a href="Course1.html">Course 1</a></li>
+			  <li><a href="Course2.html">Course 2</a></li>
+			  <li><a href="Course3.html">Course 3</a></li>
+			</ul>
+		  </li>
+		</ul>
+	  </div>
+	</nav>
+	<div class="container">
+  <h1>Application form</h1>
+  <p>If you are interested in one of our jobs then please fill our this form to register your interest. We will back to you wihin 24 hours. In the mean time please can you email us your CV to careers@hotbeansweb.com. We look forward to hearing from you. </p>
+  <form action="/action_page.php">
+    <div class="form-group">
+      <label for="first">Firstname:</label>
+      <input type="name" class="form-control" id="first" placeholder="Enter Firstname" name="first">
+    </div>
+    <div class="form-group">
+      <label for="last">Surname:</label>
+      <input type="name" class="form-control" id="last" placeholder="Enter Surname" name="last">
+    </div>
+      <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+    <div class="form-group">
+      <label for="tele">Mobile Phone Number:</label>
+      <input type="telephone number" class="form-control" id="tele" placeholder="Enter Mobile Phone Number" name="tele">
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox" name="remember"> Remember me</label>
+    </div>
+    <a href="Submission.html"><button type="button" class="btn-secondary">Submit</button></a>
+  </form>
+	</div>
+
+	<div class="footer">
+	<div class="row" style = "padding-top:10px;text-align:center">
+	  <div class="col-sm-6"style = "padding-top:10px;">Privacy Policy © 2020 Hot Beans - Web Development Page</div>
+	 <div class="col-sm-2"><a href="#"><img style="Max-Width:100%" src = "Twitter.png"></a></div>
+	  <div class="col-sm-2"><img style="Max-Width:100%" src = "Facebook.png"></div>
+	  <div class="col-sm-2" style="padding-right:0px;"><img style="Max-Width:100%" src = "Instagram.png"></div>
+	</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,144 @@
+<html>
+<head>
+	<title> My Homepage</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> 
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<style>
+		.jumbotron {
+			padding: 10px 10px 25px 10px;
+			margin:0px;
+			color:red;
+			background-color:white;
+		}
+		.navbar-inverse{
+			background-color:white;
+		}
+		.navbar-inverse .navbar-nav>li>a {
+			color:red;
+		}
+		.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
+			background-color:red;
+			color:white;
+		}
+		.navbar-inverse .navbar-nav>.active>a{
+			background-color:white;
+			color:red;
+		}
+		.navbar-inverse{
+			border-color:white;
+		}
+		.navbar-inverse .navbar-nav>.active>a{
+			color:black;
+		}
+		.navbar-nav>li>a{
+			padding-bottom:6px;
+			padding-left:137px;
+			padding-right:137px;
+			padding-top:6px;
+			font-size:20px;	
+		}
+		.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
+			background-color:red;
+			color:white;
+		}
+		.navbar-inverse .navbar-nav>.active>a{
+			color:red;
+		}
+		.containerImage {
+			position: relative;
+			width: 100%;
+		}
+
+		.image {
+		  display: block;
+		  width: 100%;
+		  height: auto;
+		}
+
+		.overlay {
+		  position: absolute;
+		  bottom: 100%;
+		  left: 0;
+		  right: 0;
+		  background-color: red;
+		  overflow: hidden;
+		  width: 100%;
+		  height:0;
+		  transition: .5s ease;
+		}
+
+		.containerImage:hover .overlay {
+		  bottom: 0;
+		  height: 100%;
+		}
+
+		.text {
+		  color: white;
+		  font-size: 20px;
+		  position: absolute;
+		  top: 50%;
+		  left: 50%;
+		  -webkit-transform: translate(-50%, -50%);
+		  -ms-transform: translate(-50%, -50%);
+		  transform: translate(-50%, -50%);
+		  text-align: center;
+		}
+		.footer {
+		width: 100%;
+		background-color: red;
+		color: white;
+		text-align: center;
+		padding-bottom:5px;
+		padding-top:5px;
+		}
+	</style>
+</head>
+<body>
+	<div class="jumbotron text-center">
+	  <img src="BeanLogo.svg" style="float:left; width:175px">
+	  <h1><strong>Hot Beans Web</strong></h1>
+	  <p><strong>A webdesign company that creates personal websites for your company</strong></p>
+	</div>
+	<nav class="navbar navbar-inverse">
+	  <div class="container-fluid">
+		<ul class="nav navbar-nav">
+		  <li><a href="Home.html"><strong>Home</strong></a></li>
+		  <li><a href="Team.html"><strong>Team</strong></a></li>
+		  <li><a href="Career.html"><strong>Careers</strong></a></li>
+		  		  <li class="dropdown">
+			<a class="dropdown-toggle" data-toggle="dropdown" href="Course.html"><strong>Courses</strong>
+			<span class="caret"></span></a>
+			<ul class="dropdown-menu">
+			  <li><a href="Course1.html">Course 1</a></li>
+			  <li><a href="Course2.html">Course 2</a></li>
+			  <li><a href="Course3.html">Course 3</a></li>
+			</ul>
+		  </li>
+		</ul>
+	  </div>
+	</nav>
+    <div class="container"> 
+	<h1><center><strong>Careers</strong></center></h1>
+    <p><center> Welcome to the career page. We are currently looking for two new Trainee employees to join our team. To find out more about this role please read below. We will be constantly updating this page as we look for new employees as we are currently expanding our business.</center> </p>
+	<p><strong>Trainee Web Developer</strong></p>
+    <p>We are looking for two new trainee web developers to join our team. We are looking for people woh will help to expand our team. It is a full time job working 6 hour shifts Monday to Friday. However, on some occassion you may have to work Saturdays.</p>
+    <p><strong>Requirments</strong></p>
+    <p>We are looking for someone who is willing to learn and is able to learn quickly and independantly. You must be hard working and not be afraid to ask for help from others. For the majority of your time working here you will be working as part of a team. Therefore is essential that are a good team worker. Communication is so important as you will be required to communicate with your team. Here at Hot Beans Web the whole team works on the website each given a seperate peice to focus on. So you must be able to get the work done to strict deadlines, if not you will be holding other people up. As well as creating web sites you will also b expected to have meeting with clients discussing their requirments and needs. Professionalism is a must when working at Hot Beans Web not just with the clients but also your team members.</p>
+    <p><strong>Qualifications and Experience Needed</strong></p>
+    <ul><li>Must have at least 8 GCSE at grade a-c or 9-5 including Maths and English</li>
+        <li>Have three A-levels including one in Computer Science or IT or equivalent Level 3</li>
+        <li>A degree in Computer Science or other relevant degree5</li>
+    </ul>
+    <div><center><a href="ApplicationForm.html"><button type="button" class="btn-secondary">Apply</button></a></center></div>
+    </div>
+	<div class="footer">
+	<div class="row" style = "padding-top:10px;text-align:center">
+	  <div class="col-sm-6"style = "padding-top:10px;">Privacy Policy © 2020 Hot Beans - Web Development Page</div>
+	 <div class="col-sm-2"><a href="#"><img style="Max-Width:100%" src = "Twitter.png"></a></div>
+	  <div class="col-sm-2"><img style="Max-Width:100%" src = "Facebook.png"></div>
+	  <div class="col-sm-2" style="padding-right:0px;"><img style="Max-Width:100%" src = "Instagram.png"></div>
+	</div>
+	</div>
+</body>
+</html>
